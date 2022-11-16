@@ -2,7 +2,7 @@
 aritmética dos números ímpares.*/
 #include <stdio.h>
 #include <stdlib.h>
-#define TAM 20
+#define TAM 4
 int main(){
 
     int i,vetor[TAM];

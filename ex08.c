@@ -28,8 +28,7 @@ int main(){
         }else if (vetor[i]>=2427.36 && vetor[i]<=3641.03){
             printf("desconto INSS:%.3f\n",salariof=vetor[i]*12/100);
             printf("salario final:%.3f\n",salariof=vetor[i]-vetor[i]*12/100);
-        }else if (vetor[i]>=3641.04 && vetor[i]<=7087.22)
-        {
+        }else if (vetor[i]>=3641.04 && vetor[i]<=7087.22){
             printf("desconto INSS:%.3f\n",salariof=vetor[i]*14/100);
             printf("salario final:%.3f\n",salariof=vetor[i]-vetor[i]*14/100);
         }

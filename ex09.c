@@ -3,7 +3,7 @@ pessoas da mesma faixa etária. As faixas etárias são: de 1 a 10 anos, de 11 a
 anos, de 21 a 30 anos e maiores de 30 anos.*/
 #include <stdio.h>
 #include <stdlib.h>
-#define TAM 20
+#define TAM 6
 
 int main(){
     float vetori[TAM],vetorp[TAM],contp1=0,contp2=0,contp3=0,mp1=0,mp2=0,mp3=0;
@@ -12,7 +12,6 @@ int main(){
         printf("escreva a idade e o peso:\n");
         scanf("%f%f",&vetori[i],&vetorp[i]);
        
-        
     if (vetori[i]>=1 && vetori[i]<=10){
         contp1+=1;
         mp1+=vetorp[i];

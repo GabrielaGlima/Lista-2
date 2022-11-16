@@ -4,10 +4,10 @@
 #include <stdlib.h>
 #define TAM 5
 int main(){
-    int i,vetor[5];
+    int i,vetor[TAM];
 
     for ( i = 0; i < TAM; i++){
-        printf("%d\n",vetor[i] = 5-i);
+        printf("%d\n",vetor[i] = TAM-i);
     }
     
     system("PAUSE");
